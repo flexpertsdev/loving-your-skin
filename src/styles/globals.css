@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-white: #FFFFFF;
+    --soft-pink: #FDF8F6;
+    --rose-gold: #D4A5A5;
+    --rose-gold-dark: #C48B8B;
+    --deep-charcoal: #1A1A1A;
+    --text-primary: #2D2D2D;
+    --text-secondary: #5A5A5A;
+    --light-gray: #F0F0F0;
+    --medium-gray: #8B8B8B;
+    --border-gray: #E0E0E0;
+    --success-green: #4CAF50;
+    --warning-amber: #FF9800;
+    --error-red: #F44336;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-light-gray text-text-primary font-sans antialiased;
+    min-height: 100vh;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-light-gray;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-rose-gold rounded-full;
+  }
+}
+
+@layer components {
+  /* Button styles matching design system */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-10 py-4 bg-rose-gold text-white 
+           rounded-full font-medium transition-all duration-300 min-h-[48px]
+           hover:bg-rose-gold-dark hover:-translate-y-0.5 hover:shadow-lg
+           focus:outline-none focus:ring-2 focus:ring-rose-gold focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-5 py-2.5 bg-white 
+           border border-border-gray rounded-full font-normal transition-all duration-300
+           hover:bg-soft-pink hover:border-rose-gold
+           focus:outline-none focus:ring-2 focus:ring-rose-gold focus:ring-offset-2;
+  }
+
+  /* Form elements */
+  .form-input {
+    @apply w-full px-4 py-3 border border-border-gray rounded-lg text-sm
+           bg-white text-text-primary transition-all duration-300
+           focus:outline-none focus:border-rose-gold focus:ring-1 focus:ring-rose-gold/10
+           placeholder:text-medium-gray;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-xl border border-border-gray shadow-sm
+           transition-all duration-300 hover:shadow-md;
+  }
+
+  /* Mobile navigation */
+  .bottom-nav {
+    @apply fixed bottom-0 left-0 right-0 bg-white border-t border-border-gray
+           px-4 py-2 z-50 md:hidden;
+  }
+}
+
+@layer utilities {
+  /* Text utilities */
+  .text-gradient {
+    @apply bg-gradient-to-r from-rose-gold to-rose-gold-dark bg-clip-text text-transparent;
+  }
+
+  /* Animation utilities */
+  .animate-shimmer {
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+}

@@ -1,4 +1,5 @@
-import { forwardRef, LabelHTMLAttributes } from 'react'
+import { forwardRef } from 'react'
+import type { LabelHTMLAttributes } from 'react'
 import { cn } from '@/lib/utils/cn'
 
 export interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {

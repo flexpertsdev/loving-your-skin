@@ -1,5 +1,6 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react'
-import { User, Retailer, TeamMember } from '@/types'
+import { createContext, useContext, useState, useEffect } from 'react'
+import type { ReactNode } from 'react'
+import type { User, Retailer, TeamMember } from '@/types'
 import { mockUsers, mockRetailers, mockTeamMembers } from '@/lib/mock/data'
 
 interface AuthContextType {

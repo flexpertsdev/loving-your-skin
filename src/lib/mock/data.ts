@@ -1,4 +1,4 @@
-import { User, Retailer, TeamMember, Brand, Product, Order, Message } from '@/types'
+import type { User, Retailer, TeamMember, Brand, Product, Order, Message } from '@/types'
 
 // Mock Users
 export const mockUsers: User[] = [

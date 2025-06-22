@@ -1,0 +1,316 @@
+{
+  "common": {
+    "lovingYourSkin": "Loving Your Skin",
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "retry": "Riprova",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "back": "Indietro",
+    "next": "Avanti",
+    "previous": "Precedente",
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "yes": "Sì",
+    "no": "No",
+    "all": "Tutto",
+    "none": "Nessuno",
+    "select": "Seleziona",
+    "selected": "Selezionato",
+    "currency": "€",
+    "per": "per",
+    "item": "articolo",
+    "items": "articoli",
+    "carton": "cartone",
+    "cartons": "cartoni"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "brands": "Marchi",
+    "products": "Prodotti",
+    "orders": "Ordini",
+    "cart": "Carrello",
+    "messages": "Messaggi",
+    "settings": "Impostazioni",
+    "profile": "Profilo",
+    "logout": "Esci",
+    "login": "Accedi",
+    "home": "Home"
+  },
+  "landing": {
+    "hero": {
+      "title": "Il tuo accesso all'autentica",
+      "titleHighlight": "Bellezza coreana",
+      "subtitle": "Connettiti direttamente con marchi K-beauty verificati. Costruisci il tuo inventario dei sogni con fiducia. Noi gestiamo la complessità, tu ti concentri sulla crescita.",
+      "ctaPrimary": "Inizia il tuo viaggio",
+      "ctaSecondary": "Scopri come funziona"
+    },
+    "stats": {
+      "brands": "Marchi verificati",
+      "products": "Prodotti",
+      "retailers": "Rivenditori soddisfatti",
+      "countries": "Paesi"
+    },
+    "features": {
+      "title": "Tutto ciò di cui hai bisogno per avere successo",
+      "subtitle": "Dalla scoperta alla consegna, abbiamo creato la soluzione completa per il retail K-beauty internazionale",
+      "globalReach": {
+        "title": "Portata globale",
+        "description": "Connettiti con marchi di bellezza coreani verificati pronti per i mercati internazionali"
+      },
+      "verifiedPartners": {
+        "title": "Partner verificati",
+        "description": "Tutti i marchi e rivenditori sono accuratamente verificati per qualità e affidabilità"
+      },
+      "directConnection": {
+        "title": "Connessione diretta",
+        "description": "Costruisci relazioni durature con i rappresentanti dei marchi e i team di supporto"
+      },
+      "marketInsights": {
+        "title": "Approfondimenti di mercato",
+        "description": "Accedi a prodotti di tendenza e raccomandazioni basate sui dati per il tuo mercato"
+      },
+      "smartLogistics": {
+        "title": "Logistica intelligente",
+        "description": "Spedizione consolidata e gestione doganale per consegne efficienti"
+      },
+      "dedicatedSupport": {
+        "title": "Supporto dedicato",
+        "description": "Team multilingue per aiutarti con ordini, prodotti e partnership"
+      }
+    },
+    "testimonials": {
+      "title": "Apprezzato dai rivenditori di tutto il mondo",
+      "subtitle": "Scopri cosa dicono i nostri partner del lavoro con LYS"
+    },
+    "cta": {
+      "title": "Pronto a trasformare il tuo business K-Beauty?",
+      "subtitle": "Unisciti a centinaia di rivenditori di successo che già acquistano prodotti di bellezza coreani autentici tramite LYS",
+      "button": "Inizia oggi"
+    },
+    "contact": {
+      "title": "Contattaci",
+      "subtitle": "Domande? Siamo qui per aiutarti ad avere successo",
+      "form": {
+        "name": "Il tuo nome",
+        "company": "Nome azienda",
+        "email": "Indirizzo email",
+        "country": "Paese",
+        "message": "Messaggio",
+        "selectCountry": "Seleziona il tuo paese",
+        "messagePlaceholder": "Raccontaci della tua attività e come possiamo aiutarti...",
+        "submit": "Invia messaggio"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bentornato",
+      "subtitle": "Accedi al tuo account",
+      "email": "Indirizzo email",
+      "password": "Password",
+      "rememberMe": "Ricordami",
+      "forgotPassword": "Password dimenticata?",
+      "submit": "Accedi",
+      "noAccount": "Non hai un account?",
+      "requestInvite": "Richiedi un invito"
+    },
+    "invite": {
+      "title": "Benvenuto in Loving Your Skin",
+      "subtitle": "Completa la tua registrazione",
+      "invalidToken": "Invito non valido o scaduto",
+      "requestNew": "Richiedi un nuovo invito"
+    }
+  },
+  "brands": {
+    "directory": {
+      "title": "Scopri marchi K-Beauty premium",
+      "subtitle": "Ogni marchio racconta una storia unica di innovazione coreana, ingredienti naturali ed eccellenza nella cura della pelle. Tutti verificati e pronti per il tuo negozio.",
+      "featured": "Marchi partner in primo piano",
+      "featuredSubtitle": "Accuratamente selezionati per qualità, innovazione e potenziale di mercato",
+      "viewAll": "Vedi tutti i marchi",
+      "exploreNow": "Esplora il marchio"
+    },
+    "showcase": {
+      "products": "Prodotti",
+      "founded": "Fondato",
+      "minOrder": "Ordine min",
+      "shopNow": "Acquista ora",
+      "viewCatalog": "Vedi catalogo prodotti",
+      "requestInfo": "Richiedi pacchetto informativo"
+    },
+    "filters": {
+      "all": "Tutti i marchi",
+      "new": "Nuovi arrivi",
+      "featured": "In primo piano",
+      "category": "Categoria",
+      "certification": "Certificazione",
+      "sortBy": "Ordina per"
+    }
+  },
+  "products": {
+    "moq": "QMO",
+    "priceFrom": "Da",
+    "addToCart": "Aggiungi al carrello",
+    "viewDetails": "Vedi dettagli",
+    "ingredients": "Ingredienti",
+    "benefits": "Benefici",
+    "usage": "Come usare",
+    "certifications": "Certificazioni",
+    "madeIn": "Prodotto in",
+    "shelfLife": "Durata"
+  },
+  "cart": {
+    "title": "Carrello",
+    "empty": "Il tuo carrello è vuoto",
+    "startShopping": "Inizia lo shopping",
+    "itemCount": "{{count}} articolo",
+    "itemCount_plural": "{{count}} articoli",
+    "perBrand": "per marchio",
+    "moqWarning": "Quantità minima d'ordine non raggiunta",
+    "moqHelper": "Aggiungi {{count}} in più per raggiungere la QMO",
+    "suggestedProducts": "Prodotti suggeriti per raggiungere la QMO",
+    "subtotal": "Subtotale",
+    "shipping": "Spedizione",
+    "tax": "Tasse",
+    "total": "Totale",
+    "checkout": "Procedi al checkout",
+    "continueShopping": "Continua lo shopping",
+    "remove": "Rimuovi",
+    "updateQuantity": "Aggiorna quantità"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "step1": {
+      "title": "Informazioni di spedizione",
+      "savedAddresses": "Indirizzi salvati",
+      "newAddress": "Nuovo indirizzo",
+      "deliveryDate": "Data di consegna preferita",
+      "specialInstructions": "Istruzioni speciali"
+    },
+    "step2": {
+      "title": "Rivedi ordine",
+      "orderSummary": "Riepilogo ordine",
+      "shippingTo": "Spedizione a",
+      "shippingMethod": "Metodo di spedizione",
+      "estimatedDelivery": "Consegna stimata"
+    },
+    "step3": {
+      "title": "Termini di pagamento",
+      "selectTerms": "Seleziona termini di pagamento",
+      "net30": "NET 30 - Pagamento dovuto in 30 giorni",
+      "net45": "NET 45 - Pagamento dovuto in 45 giorni",
+      "prepaid": "Prepagato - Pagamento richiesto prima della spedizione",
+      "purchaseOrder": "Numero ordine d'acquisto",
+      "orderNotes": "Note ordine",
+      "agreeTerms": "Accetto i termini e le condizioni",
+      "placeOrder": "Invia ordine"
+    }
+  },
+  "orders": {
+    "title": "Ordini",
+    "orderNumber": "Ordine n.",
+    "date": "Data",
+    "status": "Stato",
+    "total": "Totale",
+    "actions": "Azioni",
+    "viewDetails": "Vedi dettagli",
+    "reorder": "Riordina",
+    "track": "Traccia",
+    "statuses": {
+      "pending": "In attesa",
+      "confirmed": "Confermato",
+      "processing": "In elaborazione",
+      "shipped": "Spedito",
+      "delivered": "Consegnato",
+      "cancelled": "Annullato"
+    },
+    "details": {
+      "orderDetails": "Dettagli ordine",
+      "timeline": "Cronologia ordine",
+      "shipping": "Informazioni spedizione",
+      "payment": "Informazioni pagamento",
+      "items": "Articoli ordinati",
+      "messages": "Messaggi",
+      "documents": "Documenti",
+      "invoice": "Fattura",
+      "packingList": "Lista imballaggio"
+    }
+  },
+  "dashboard": {
+    "welcome": "Bentornato, {{name}}",
+    "metrics": {
+      "totalOrders": "Ordini totali",
+      "activeOrders": "Ordini attivi",
+      "totalSpent": "Totale speso",
+      "brandsOrdered": "Marchi ordinati"
+    },
+    "recentOrders": "Ordini recenti",
+    "featuredBrands": "Marchi in primo piano",
+    "quickActions": "Azioni rapide",
+    "viewAll": "Vedi tutto"
+  },
+  "messages": {
+    "title": "Messaggi",
+    "compose": "Componi",
+    "search": "Cerca messaggi",
+    "orderInquiry": "Richiesta ordine",
+    "generalQuestion": "Domanda generale",
+    "typeMessage": "Scrivi il tuo messaggio...",
+    "send": "Invia",
+    "attachment": "Allegato"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "tabs": {
+      "profile": "Profilo",
+      "company": "Azienda",
+      "team": "Team",
+      "billing": "Fatturazione",
+      "notifications": "Notifiche"
+    },
+    "profile": {
+      "personalInfo": "Informazioni personali",
+      "changePassword": "Cambia password",
+      "language": "Lingua",
+      "timezone": "Fuso orario"
+    },
+    "company": {
+      "companyInfo": "Informazioni azienda",
+      "addresses": "Indirizzi",
+      "taxInfo": "Informazioni fiscali",
+      "certifications": "Certificazioni"
+    },
+    "team": {
+      "members": "Membri del team",
+      "inviteMembers": "Invita membri del team",
+      "roles": "Ruoli e permessi"
+    }
+  },
+  "errors": {
+    "generic": "Si è verificato un errore",
+    "network": "Errore di rete. Controlla la tua connessione.",
+    "notFound": "Pagina non trovata",
+    "unauthorized": "Non sei autorizzato a visualizzare questa pagina",
+    "validation": {
+      "required": "Questo campo è obbligatorio",
+      "email": "Inserisci un'email valida",
+      "minLength": "Deve essere almeno {{min}} caratteri",
+      "maxLength": "Non deve superare {{max}} caratteri",
+      "minValue": "Deve essere almeno {{min}}",
+      "moq": "La quantità minima d'ordine è {{moq}}"
+    }
+  },
+  "success": {
+    "orderPlaced": "Ordine effettuato con successo!",
+    "itemAdded": "Articolo aggiunto al carrello",
+    "profileUpdated": "Profilo aggiornato con successo",
+    "messageSent": "Messaggio inviato con successo"
+  }
+}

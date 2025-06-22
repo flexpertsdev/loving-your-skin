@@ -5,6 +5,8 @@ export type TeamRole = 'ADMIN' | 'SALES_REP' | 'SUPPORT'
 export interface User {
   id: string
   email: string
+  name?: string
+  companyName?: string
   userType: UserType
   languagePreference: string
   createdAt: Date
@@ -13,43 +15,138 @@ export interface User {
 
 export interface Retailer {
   id: string
-  userId: string
   companyName: string
-  vatNumber?: string
-  address: Address
-  salesRepId: string
+  contactPerson: string
+  email: string
+  phoneNumber: string
+  website?: string
+  addresses: RetailerAddress[]
+  businessType: string
+  yearEstablished: number
+  taxId: string
+  status: 'active' | 'inactive' | 'pending'
+  verificationDate: string
+  preferredLanguage: string
+  preferredCurrency: string
+  paymentTerms: string
+  creditLimit: number
+  tags: string[]
+  notes?: string
+  metadata?: Record<string, any>
+}
+
+export interface RetailerAddress {
+  id: string
+  type: 'shipping' | 'billing'
+  isDefault: boolean
+  addressLine1: string
+  addressLine2?: string
+  city: string
+  state?: string
+  postalCode: string
+  country: string
+  contactName: string
+  contactPhone: string
 }
 
 export interface TeamMember {
   id: string
-  userId: string
-  role: TeamRole
+  retailerId: string
+  name: string
+  email: string
+  role: string
+  permissions: string[]
+  status: 'active' | 'inactive' | 'pending'
+  invitedBy: string
+  invitedDate: string
+  lastLogin?: string
 }
 
 export interface Brand {
   id: string
-  name: string
   slug: string
+  name: string
+  tagline: string
   description: LocalizedContent
   story: LocalizedContent
-  logoUrl?: string
-  isActive: boolean
+  values: string[]
+  certifications: string[]
+  logoUrl: string
+  heroImageUrl: string
+  brandColorPrimary: string
+  brandColorSecondary: string
+  featured: boolean
+  launchDate: string
+  countryOfOrigin: string
+  categories: string[]
+  socialMedia?: {
+    instagram?: string
+    youtube?: string
+    website?: string
+  }
+  founderStory?: LocalizedContent
+  ingredients?: {
+    featured: string[]
+    philosophy: LocalizedContent
+  }
+  technologies?: {
+    name: string
+    description: string
+    patent?: string
+  }[]
 }
 
 export interface Product {
   id: string
   brandId: string
+  sku: string
   name: LocalizedContent
   description: LocalizedContent
-  images: string[]
-  pricePerItem: number
-  itemsPerCarton: number
-  pricePerCarton: number
-  minimumOrderQty: number
-  sku: string
-  isActive: boolean
-  categories: string[]
-  certifications: Certification[]
+  shortDescription: LocalizedContent
+  category: string
+  subcategory: string
+  images: {
+    primary: string
+    gallery: string[]
+    lifestyle?: string[]
+  }
+  moq: number
+  priceTiers: PriceTier[]
+  stockStatus: 'in_stock' | 'limited' | 'out_of_stock' | 'pre_order'
+  leadTime: string
+  expiryDate?: string
+  ingredients: {
+    key: string[]
+    full: string
+  }
+  usage: LocalizedContent
+  benefits: string[]
+  certifications: string[]
+  awards?: string[]
+  packagingInfo: {
+    unitsPerCarton: number
+    cartonDimensions: string
+    cartonWeight: string
+    productDimensions: string
+    productWeight: string
+  }
+  retailPrice?: {
+    amount: number
+    currency: string
+  }
+  tags: string[]
+  featured: boolean
+  new: boolean
+  bestseller: boolean
+  limitedEdition: boolean
+  exclusiveToRegions?: string[]
+}
+
+export interface PriceTier {
+  minQty: number
+  maxQty?: number
+  pricePerUnit: number
+  currency: string
 }
 
 export interface Order {

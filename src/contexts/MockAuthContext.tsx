@@ -1,7 +1,39 @@
 import { createContext, useContext, useState, useEffect } from 'react'
 import type { ReactNode } from 'react'
 import type { User, Retailer, TeamMember } from '@/types'
-import { mockUsers, mockRetailers, mockTeamMembers } from '@/lib/mock/data'
+import { mockRetailers, mockTeamMembers } from '@/data/mockRetailers'
+
+// Mock users for authentication
+const mockUsers: User[] = [
+  {
+    id: 'user-1',
+    email: 'retailer@example.com',
+    name: 'Sarah Chen',
+    companyName: 'Beauty Boutique London',
+    userType: 'RETAILER',
+    languagePreference: 'en',
+    createdAt: new Date('2024-01-01'),
+    updatedAt: new Date('2024-01-01'),
+  },
+  {
+    id: 'user-2',
+    email: 'admin@lys.com',
+    name: 'Admin User',
+    userType: 'TEAM_MEMBER',
+    languagePreference: 'en',
+    createdAt: new Date('2024-01-01'),
+    updatedAt: new Date('2024-01-01'),
+  },
+  {
+    id: 'user-3',
+    email: 'brand@example.com',
+    name: 'Brand Representative',
+    userType: 'BRAND_REP',
+    languagePreference: 'ko',
+    createdAt: new Date('2024-01-01'),
+    updatedAt: new Date('2024-01-01'),
+  },
+]
 
 interface AuthContextType {
   user: User | null
@@ -37,10 +69,10 @@ export function MockAuthProvider({ children }: { children: ReactNode }) {
 
   const loadUserDetails = (user: User) => {
     if (user.userType === 'RETAILER') {
-      const foundRetailer = mockRetailers.find(r => r.userId === user.id)
+      const foundRetailer = mockRetailers.find(r => r.email === user.email)
       if (foundRetailer) setRetailer(foundRetailer)
     } else if (user.userType === 'TEAM_MEMBER') {
-      const foundTeamMember = mockTeamMembers.find(t => t.userId === user.id)
+      const foundTeamMember = mockTeamMembers.find(t => t.email === user.email)
       if (foundTeamMember) setTeamMember(foundTeamMember)
     }
   }

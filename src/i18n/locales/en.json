@@ -1,0 +1,316 @@
+{
+  "common": {
+    "lovingYourSkin": "Loving Your Skin",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "select": "Select",
+    "selected": "Selected",
+    "currency": "£",
+    "per": "per",
+    "item": "item",
+    "items": "items",
+    "carton": "carton",
+    "cartons": "cartons"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "brands": "Brands",
+    "products": "Products",
+    "orders": "Orders",
+    "cart": "Shopping Cart",
+    "messages": "Messages",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "home": "Home"
+  },
+  "landing": {
+    "hero": {
+      "title": "Your Gateway to Authentic",
+      "titleHighlight": "Korean Beauty",
+      "subtitle": "Connect directly with verified K-beauty brands. Build your dream inventory with confidence. We handle the complexity, you focus on growth.",
+      "ctaPrimary": "Start Your Journey",
+      "ctaSecondary": "Learn How It Works"
+    },
+    "stats": {
+      "brands": "Verified Brands",
+      "products": "Products",
+      "retailers": "Happy Retailers",
+      "countries": "Countries"
+    },
+    "features": {
+      "title": "Everything You Need to Succeed",
+      "subtitle": "From discovery to delivery, we've built the complete solution for international K-beauty retail",
+      "globalReach": {
+        "title": "Global Reach",
+        "description": "Connect with verified Korean beauty brands ready for international markets"
+      },
+      "verifiedPartners": {
+        "title": "Verified Partners",
+        "description": "All brands and retailers are thoroughly vetted for quality and reliability"
+      },
+      "directConnection": {
+        "title": "Direct Connection",
+        "description": "Build lasting relationships with brand representatives and support teams"
+      },
+      "marketInsights": {
+        "title": "Market Insights",
+        "description": "Access trending products and data-driven recommendations for your market"
+      },
+      "smartLogistics": {
+        "title": "Smart Logistics",
+        "description": "Consolidated shipping and customs handling for efficient delivery"
+      },
+      "dedicatedSupport": {
+        "title": "Dedicated Support",
+        "description": "Multilingual team to help with orders, products, and partnerships"
+      }
+    },
+    "testimonials": {
+      "title": "Trusted by Retailers Worldwide",
+      "subtitle": "See what our partners say about working with LYS"
+    },
+    "cta": {
+      "title": "Ready to Transform Your K-Beauty Business?",
+      "subtitle": "Join hundreds of successful retailers already sourcing authentic Korean beauty products through LYS",
+      "button": "Get Started Today"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "Questions? We're here to help you succeed",
+      "form": {
+        "name": "Your Name",
+        "company": "Company Name",
+        "email": "Email Address",
+        "country": "Country",
+        "message": "Message",
+        "selectCountry": "Select your country",
+        "messagePlaceholder": "Tell us about your business and how we can help...",
+        "submit": "Send Message"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "requestInvite": "Request an invite"
+    },
+    "invite": {
+      "title": "Welcome to Loving Your Skin",
+      "subtitle": "Complete your registration",
+      "invalidToken": "Invalid or expired invitation",
+      "requestNew": "Request a new invitation"
+    }
+  },
+  "brands": {
+    "directory": {
+      "title": "Discover Premium K-Beauty Brands",
+      "subtitle": "Each brand tells a unique story of Korean innovation, natural ingredients, and skincare excellence. All verified and ready for your store.",
+      "featured": "Featured Partner Brands",
+      "featuredSubtitle": "Carefully selected for quality, innovation, and market potential",
+      "viewAll": "View All Brands",
+      "exploreNow": "Explore Brand"
+    },
+    "showcase": {
+      "products": "Products",
+      "founded": "Founded",
+      "minOrder": "Min Order",
+      "shopNow": "Shop Now",
+      "viewCatalog": "View Product Catalog",
+      "requestInfo": "Request Information Pack"
+    },
+    "filters": {
+      "all": "All Brands",
+      "new": "New Arrivals",
+      "featured": "Featured",
+      "category": "Category",
+      "certification": "Certification",
+      "sortBy": "Sort by"
+    }
+  },
+  "products": {
+    "moq": "MOQ",
+    "priceFrom": "From",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "ingredients": "Ingredients",
+    "benefits": "Benefits",
+    "usage": "How to Use",
+    "certifications": "Certifications",
+    "madeIn": "Made in",
+    "shelfLife": "Shelf Life"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "startShopping": "Start Shopping",
+    "itemCount": "{{count}} item",
+    "itemCount_plural": "{{count}} items",
+    "perBrand": "per brand",
+    "moqWarning": "Minimum order quantity not met",
+    "moqHelper": "Add {{count}} more to meet MOQ",
+    "suggestedProducts": "Suggested products to meet MOQ",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "continueShopping": "Continue Shopping",
+    "remove": "Remove",
+    "updateQuantity": "Update Quantity"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "step1": {
+      "title": "Shipping Information",
+      "savedAddresses": "Saved Addresses",
+      "newAddress": "New Address",
+      "deliveryDate": "Preferred Delivery Date",
+      "specialInstructions": "Special Instructions"
+    },
+    "step2": {
+      "title": "Review Order",
+      "orderSummary": "Order Summary",
+      "shippingTo": "Shipping to",
+      "shippingMethod": "Shipping Method",
+      "estimatedDelivery": "Estimated Delivery"
+    },
+    "step3": {
+      "title": "Payment Terms",
+      "selectTerms": "Select Payment Terms",
+      "net30": "NET 30 - Payment due in 30 days",
+      "net45": "NET 45 - Payment due in 45 days",
+      "prepaid": "Prepaid - Payment required before shipping",
+      "purchaseOrder": "Purchase Order Number",
+      "orderNotes": "Order Notes",
+      "agreeTerms": "I agree to the terms and conditions",
+      "placeOrder": "Place Order"
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "orderNumber": "Order #",
+    "date": "Date",
+    "status": "Status",
+    "total": "Total",
+    "actions": "Actions",
+    "viewDetails": "View Details",
+    "reorder": "Reorder",
+    "track": "Track",
+    "statuses": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "details": {
+      "orderDetails": "Order Details",
+      "timeline": "Order Timeline",
+      "shipping": "Shipping Information",
+      "payment": "Payment Information",
+      "items": "Order Items",
+      "messages": "Messages",
+      "documents": "Documents",
+      "invoice": "Invoice",
+      "packingList": "Packing List"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}",
+    "metrics": {
+      "totalOrders": "Total Orders",
+      "activeOrders": "Active Orders",
+      "totalSpent": "Total Spent",
+      "brandsOrdered": "Brands Ordered"
+    },
+    "recentOrders": "Recent Orders",
+    "featuredBrands": "Featured Brands",
+    "quickActions": "Quick Actions",
+    "viewAll": "View All"
+  },
+  "messages": {
+    "title": "Messages",
+    "compose": "Compose",
+    "search": "Search messages",
+    "orderInquiry": "Order Inquiry",
+    "generalQuestion": "General Question",
+    "typeMessage": "Type your message...",
+    "send": "Send",
+    "attachment": "Attachment"
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "profile": "Profile",
+      "company": "Company",
+      "team": "Team",
+      "billing": "Billing",
+      "notifications": "Notifications"
+    },
+    "profile": {
+      "personalInfo": "Personal Information",
+      "changePassword": "Change Password",
+      "language": "Language",
+      "timezone": "Timezone"
+    },
+    "company": {
+      "companyInfo": "Company Information",
+      "addresses": "Addresses",
+      "taxInfo": "Tax Information",
+      "certifications": "Certifications"
+    },
+    "team": {
+      "members": "Team Members",
+      "inviteMembers": "Invite Team Members",
+      "roles": "Roles & Permissions"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "network": "Network error. Please check your connection.",
+    "notFound": "Page not found",
+    "unauthorized": "You are not authorized to view this page",
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email",
+      "minLength": "Must be at least {{min}} characters",
+      "maxLength": "Must be no more than {{max}} characters",
+      "minValue": "Must be at least {{min}}",
+      "moq": "Minimum order quantity is {{moq}}"
+    }
+  },
+  "success": {
+    "orderPlaced": "Order placed successfully!",
+    "itemAdded": "Item added to cart",
+    "profileUpdated": "Profile updated successfully",
+    "messageSent": "Message sent successfully"
+  }
+}

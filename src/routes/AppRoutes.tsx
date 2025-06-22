@@ -6,6 +6,9 @@ import { AdminRoute } from './AdminRoute'
 // Layouts
 import { PublicLayout, RetailerLayout, AdminLayout, AuthLayout } from '@/components/layout'
 
+// Pages
+import Landing from '@/pages/Landing'
+
 // Placeholder components for now
 const PlaceholderPage = ({ title }: { title: string }) => (
   <div className="container mx-auto px-4 py-8">
@@ -32,7 +35,7 @@ export function AppRoutes() {
     <Routes>
       {/* Public routes */}
       <Route element={<PublicLayout />}>
-        <Route path="/" element={<PlaceholderPage title="Landing Page" />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/how-it-works" element={<PlaceholderPage title="How It Works" />} />
         <Route path="/for-retailers" element={<PlaceholderPage title="For Retailers" />} />
         <Route path="/for-brands" element={<PlaceholderPage title="For Brands" />} />

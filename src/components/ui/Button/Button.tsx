@@ -3,19 +3,21 @@ import type { ButtonHTMLAttributes } from 'react'
 import { cn } from '@/lib/utils/cn'
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'ghost'
+  variant?: 'primary' | 'secondary' | 'ghost' | 'outline'
   size?: 'sm' | 'md' | 'lg'
   isLoading?: boolean
+  asChild?: boolean
 }
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant = 'primary', size = 'md', isLoading, children, disabled, ...props }, ref) => {
+  ({ className, variant = 'primary', size = 'md', isLoading, children, disabled, asChild, ...props }, ref) => {
     const baseStyles = 'inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-gold focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none'
     
     const variants = {
       primary: 'bg-rose-gold text-white hover:bg-rose-gold-dark hover:-translate-y-0.5 hover:shadow-lg',
       secondary: 'bg-white border border-border-gray hover:bg-soft-pink hover:border-rose-gold',
       ghost: 'hover:bg-soft-pink hover:text-deep-charcoal',
+      outline: 'border border-border-gray text-text-primary hover:bg-soft-pink hover:border-rose-gold',
     }
     
     const sizes = {

@@ -1,0 +1,316 @@
+{
+  "common": {
+    "lovingYourSkin": "러빙 유어 스킨",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "retry": "다시 시도",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "view": "보기",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "close": "닫기",
+    "confirm": "확인",
+    "yes": "예",
+    "no": "아니오",
+    "all": "전체",
+    "none": "없음",
+    "select": "선택",
+    "selected": "선택됨",
+    "currency": "₩",
+    "per": "당",
+    "item": "개",
+    "items": "개",
+    "carton": "박스",
+    "cartons": "박스"
+  },
+  "nav": {
+    "dashboard": "대시보드",
+    "brands": "브랜드",
+    "products": "제품",
+    "orders": "주문",
+    "cart": "장바구니",
+    "messages": "메시지",
+    "settings": "설정",
+    "profile": "프로필",
+    "logout": "로그아웃",
+    "login": "로그인",
+    "home": "홈"
+  },
+  "landing": {
+    "hero": {
+      "title": "정품",
+      "titleHighlight": "K-뷰티의 관문",
+      "subtitle": "검증된 K-뷰티 브랜드와 직접 연결하세요. 자신있게 드림 인벤토리를 구축하세요. 복잡한 일은 저희가, 성장에 집중하세요.",
+      "ctaPrimary": "여정 시작하기",
+      "ctaSecondary": "이용 방법 알아보기"
+    },
+    "stats": {
+      "brands": "검증된 브랜드",
+      "products": "제품",
+      "retailers": "만족한 리테일러",
+      "countries": "국가"
+    },
+    "features": {
+      "title": "성공에 필요한 모든 것",
+      "subtitle": "발견부터 배송까지, 국제 K-뷰티 리테일을 위한 완벽한 솔루션을 구축했습니다",
+      "globalReach": {
+        "title": "글로벌 도달",
+        "description": "국제 시장에 준비된 검증된 한국 뷰티 브랜드와 연결"
+      },
+      "verifiedPartners": {
+        "title": "검증된 파트너",
+        "description": "모든 브랜드와 리테일러는 품질과 신뢰성을 철저히 검증"
+      },
+      "directConnection": {
+        "title": "직접 연결",
+        "description": "브랜드 담당자 및 지원팀과 지속적인 관계 구축"
+      },
+      "marketInsights": {
+        "title": "시장 인사이트",
+        "description": "귀하의 시장을 위한 트렌드 제품과 데이터 기반 추천에 접근"
+      },
+      "smartLogistics": {
+        "title": "스마트 물류",
+        "description": "효율적인 배송을 위한 통합 배송 및 관세 처리"
+      },
+      "dedicatedSupport": {
+        "title": "전담 지원",
+        "description": "주문, 제품 및 파트너십을 돕는 다국어 팀"
+      }
+    },
+    "testimonials": {
+      "title": "전 세계 리테일러가 신뢰합니다",
+      "subtitle": "LYS와 함께 일하는 파트너들의 이야기를 들어보세요"
+    },
+    "cta": {
+      "title": "K-뷰티 비즈니스를 변화시킬 준비가 되셨나요?",
+      "subtitle": "이미 LYS를 통해 정품 한국 뷰티 제품을 소싱하는 수백 명의 성공적인 리테일러와 함께하세요",
+      "button": "오늘 시작하기"
+    },
+    "contact": {
+      "title": "문의하기",
+      "subtitle": "질문이 있으신가요? 성공을 도와드리겠습니다",
+      "form": {
+        "name": "이름",
+        "company": "회사명",
+        "email": "이메일 주소",
+        "country": "국가",
+        "message": "메시지",
+        "selectCountry": "국가를 선택하세요",
+        "messagePlaceholder": "귀하의 비즈니스와 도움이 필요한 사항을 알려주세요...",
+        "submit": "메시지 보내기"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "다시 오신 것을 환영합니다",
+      "subtitle": "계정에 로그인하세요",
+      "email": "이메일 주소",
+      "password": "비밀번호",
+      "rememberMe": "로그인 상태 유지",
+      "forgotPassword": "비밀번호를 잊으셨나요?",
+      "submit": "로그인",
+      "noAccount": "계정이 없으신가요?",
+      "requestInvite": "초대 요청하기"
+    },
+    "invite": {
+      "title": "러빙 유어 스킨에 오신 것을 환영합니다",
+      "subtitle": "등록을 완료하세요",
+      "invalidToken": "유효하지 않거나 만료된 초대",
+      "requestNew": "새 초대 요청하기"
+    }
+  },
+  "brands": {
+    "directory": {
+      "title": "프리미엄 K-뷰티 브랜드 발견",
+      "subtitle": "각 브랜드는 한국의 혁신, 천연 성분, 스킨케어 우수성의 독특한 이야기를 들려줍니다. 모두 검증되어 귀하의 매장에 준비되어 있습니다.",
+      "featured": "주요 파트너 브랜드",
+      "featuredSubtitle": "품질, 혁신, 시장 잠재력을 위해 신중히 선택",
+      "viewAll": "모든 브랜드 보기",
+      "exploreNow": "브랜드 탐색"
+    },
+    "showcase": {
+      "products": "제품",
+      "founded": "설립",
+      "minOrder": "최소 주문",
+      "shopNow": "지금 쇼핑",
+      "viewCatalog": "제품 카탈로그 보기",
+      "requestInfo": "정보 패키지 요청"
+    },
+    "filters": {
+      "all": "모든 브랜드",
+      "new": "신규 브랜드",
+      "featured": "추천",
+      "category": "카테고리",
+      "certification": "인증",
+      "sortBy": "정렬 기준"
+    }
+  },
+  "products": {
+    "moq": "최소주문수량",
+    "priceFrom": "부터",
+    "addToCart": "장바구니에 담기",
+    "viewDetails": "상세 보기",
+    "ingredients": "성분",
+    "benefits": "효능",
+    "usage": "사용 방법",
+    "certifications": "인증",
+    "madeIn": "제조국",
+    "shelfLife": "유통기한"
+  },
+  "cart": {
+    "title": "장바구니",
+    "empty": "장바구니가 비어 있습니다",
+    "startShopping": "쇼핑 시작하기",
+    "itemCount": "{{count}}개",
+    "itemCount_plural": "{{count}}개",
+    "perBrand": "브랜드당",
+    "moqWarning": "최소 주문 수량을 충족하지 못했습니다",
+    "moqHelper": "MOQ를 충족하려면 {{count}}개 더 추가하세요",
+    "suggestedProducts": "MOQ 충족을 위한 추천 제품",
+    "subtotal": "소계",
+    "shipping": "배송비",
+    "tax": "세금",
+    "total": "합계",
+    "checkout": "결제 진행",
+    "continueShopping": "쇼핑 계속하기",
+    "remove": "제거",
+    "updateQuantity": "수량 업데이트"
+  },
+  "checkout": {
+    "title": "결제",
+    "step1": {
+      "title": "배송 정보",
+      "savedAddresses": "저장된 주소",
+      "newAddress": "새 주소",
+      "deliveryDate": "선호 배송일",
+      "specialInstructions": "특별 지침"
+    },
+    "step2": {
+      "title": "주문 검토",
+      "orderSummary": "주문 요약",
+      "shippingTo": "배송지",
+      "shippingMethod": "배송 방법",
+      "estimatedDelivery": "예상 배송일"
+    },
+    "step3": {
+      "title": "결제 조건",
+      "selectTerms": "결제 조건 선택",
+      "net30": "NET 30 - 30일 내 결제",
+      "net45": "NET 45 - 45일 내 결제",
+      "prepaid": "선불 - 배송 전 결제 필요",
+      "purchaseOrder": "구매 주문 번호",
+      "orderNotes": "주문 메모",
+      "agreeTerms": "이용 약관에 동의합니다",
+      "placeOrder": "주문하기"
+    }
+  },
+  "orders": {
+    "title": "주문",
+    "orderNumber": "주문 번호",
+    "date": "날짜",
+    "status": "상태",
+    "total": "합계",
+    "actions": "작업",
+    "viewDetails": "상세 보기",
+    "reorder": "재주문",
+    "track": "추적",
+    "statuses": {
+      "pending": "대기 중",
+      "confirmed": "확인됨",
+      "processing": "처리 중",
+      "shipped": "배송됨",
+      "delivered": "배달 완료",
+      "cancelled": "취소됨"
+    },
+    "details": {
+      "orderDetails": "주문 상세",
+      "timeline": "주문 타임라인",
+      "shipping": "배송 정보",
+      "payment": "결제 정보",
+      "items": "주문 항목",
+      "messages": "메시지",
+      "documents": "문서",
+      "invoice": "송장",
+      "packingList": "포장 목록"
+    }
+  },
+  "dashboard": {
+    "welcome": "다시 오신 것을 환영합니다, {{name}}님",
+    "metrics": {
+      "totalOrders": "총 주문",
+      "activeOrders": "진행 중인 주문",
+      "totalSpent": "총 지출",
+      "brandsOrdered": "주문한 브랜드"
+    },
+    "recentOrders": "최근 주문",
+    "featuredBrands": "추천 브랜드",
+    "quickActions": "빠른 작업",
+    "viewAll": "모두 보기"
+  },
+  "messages": {
+    "title": "메시지",
+    "compose": "작성",
+    "search": "메시지 검색",
+    "orderInquiry": "주문 문의",
+    "generalQuestion": "일반 질문",
+    "typeMessage": "메시지를 입력하세요...",
+    "send": "보내기",
+    "attachment": "첨부파일"
+  },
+  "settings": {
+    "title": "설정",
+    "tabs": {
+      "profile": "프로필",
+      "company": "회사",
+      "team": "팀",
+      "billing": "청구",
+      "notifications": "알림"
+    },
+    "profile": {
+      "personalInfo": "개인 정보",
+      "changePassword": "비밀번호 변경",
+      "language": "언어",
+      "timezone": "시간대"
+    },
+    "company": {
+      "companyInfo": "회사 정보",
+      "addresses": "주소",
+      "taxInfo": "세금 정보",
+      "certifications": "인증"
+    },
+    "team": {
+      "members": "팀 멤버",
+      "inviteMembers": "팀 멤버 초대",
+      "roles": "역할 및 권한"
+    }
+  },
+  "errors": {
+    "generic": "문제가 발생했습니다",
+    "network": "네트워크 오류. 연결을 확인하세요.",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "unauthorized": "이 페이지를 볼 권한이 없습니다",
+    "validation": {
+      "required": "이 필드는 필수입니다",
+      "email": "유효한 이메일을 입력하세요",
+      "minLength": "최소 {{min}}자 이상이어야 합니다",
+      "maxLength": "최대 {{max}}자 이하여야 합니다",
+      "minValue": "최소 {{min}} 이상이어야 합니다",
+      "moq": "최소 주문 수량은 {{moq}}입니다"
+    }
+  },
+  "success": {
+    "orderPlaced": "주문이 성공적으로 완료되었습니다!",
+    "itemAdded": "장바구니에 추가되었습니다",
+    "profileUpdated": "프로필이 성공적으로 업데이트되었습니다",
+    "messageSent": "메시지가 성공적으로 전송되었습니다"
+  }
+}
